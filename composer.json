@@ -5,6 +5,7 @@
         "localized route builder"
     ],
     "homepage":"https://github.com/avassilenko/meta-resolver",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Andrei Vassilenko",
