@@ -19,6 +19,5 @@
         "psr-4": {
             "Crumby\\RouteResolver\\": "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
