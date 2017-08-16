@@ -13,13 +13,13 @@ File: config/app.php
     ......................
  ];
       
-2. Add route parameter and resolver class to config/route-resolver.php 
+2. Add route parameter and corresponding resolver class to config/route-resolver.php 
 return [
         .........................
         'package' => 'App\Resolvers\PackageResolver',
         ........................
 ];
-when route will resolve /packages/{package} we will call Resolver Service and insert last segment of url base on current locale  
+when route resolve route /packages/{package} it calls Resolver Service and substitute last segment of url {package} with localized value returned by Resolver Class method segment(), in our example PackageResolver::segment(). 
 
 3. Implement interface Crumby\RouteResolver\Contracts\ParamResolver.php
 in file, for example:
