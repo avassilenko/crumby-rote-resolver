@@ -1,3 +1,7 @@
+Installation:
+> composer require crumby/route-resolver
+> php artisan vendor:publish --tag=config
+
 1. Register service and facade. 
 File: config/app.php
 
