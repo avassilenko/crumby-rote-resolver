@@ -1,8 +1,8 @@
 Installation:
 -------------
 ```
-> composer require crumby/route-resolver
-> php artisan vendor:publish --tag=config
+> composer require crumby/route-resolver:"dev-master"
+> php artisan vendor:publish --provider="Crumby\RouteResolver\RouteResolverServiceProvider" --tag=config
 ```
 
 Register service and facade:
@@ -89,3 +89,6 @@ $uriWithParam = \Route::getCurrentRoute()->uri();
 $allRoutes = \RouteResolver::resolveRouteCollection($uriWithParam, $resolvers);
 ```
 
+test stability:
+---------------
+https://semver.mwl.be/#?package=crumby%2Froute-resolver&version=dev-master&minimum-stability=stable

@@ -4,8 +4,7 @@
     "keywords":[
         "localized route builder"
     ],
-    "homepage":"https://github.com/avassilenko/meta-resolver",
-    "minimum-stability": "dev",
+    "homepage":"https://github.com/avassilenko/route-resolver", 
     "authors": [
         {
             "name": "Andrei Vassilenko",
