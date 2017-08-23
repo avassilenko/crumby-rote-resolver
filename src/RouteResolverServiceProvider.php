@@ -48,7 +48,7 @@ class RouteResolverServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/config/crumby-crumbs/route-resolver.php' => config_path('crumby-crumbs/route-resolver.php')
+                __DIR__.'/config/route-resolver.php' => config_path('crumby-crumbs/route-resolver.php')
             ], 'config');
         }
         
